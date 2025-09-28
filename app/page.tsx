@@ -1,4 +1,4 @@
-import Container from "@/components/common/container";
+import Container from "@/components/common/Container";
 
 export default function page(){
   return(

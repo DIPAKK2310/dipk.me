@@ -1,7 +1,7 @@
 import { navbarConfig } from "@/config/Navbar";
 import { Link } from "next-view-transitions"
 import Image from "next/image";
-import Container from "./container";
+import Container from "./Container";
 import React from "react";
 
 
@@ -16,10 +16,11 @@ export default function Navbar() {
                     alt={navbarConfig.logo.alt}
                     width={navbarConfig.logo.width}
                     height={navbarConfig.logo.height}
-                    className="h-12 w-12 rounded-md border border-gray-200 bg-blue-300 transition-all duration-300 ease-in-out hover:scale-90 dark:bg-yellow-300"
+                    className="h-25 w-28 rounded-full   transition-all duration-300 ease-in-out hover:scale-90 dark:bg-white-300"
                   />
                 </Link>
-                <div className="flex items-center justify-center gap-4">
+                </div>
+                <div className="flex items-center justify-center gap-10">
                   {navbarConfig.navItems.map((item)=>(
                     <Link
                     className="transition-all duration-300 ease-in-out hover:underline hover:decoration-2 hover:underline-offset-4"
@@ -32,6 +33,8 @@ export default function Navbar() {
 
                   }
                 </div>
+            <div className="flex items-center gap-10">
+              <button>Theme</button>
             </div>
         {/* Here the theme button goes */}
         </div>
