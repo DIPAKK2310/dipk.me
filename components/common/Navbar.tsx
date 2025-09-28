@@ -3,6 +3,7 @@ import { Link } from "next-view-transitions"
 import Image from "next/image";
 import Container from "./Container";
 import React from "react";
+import { ThemeToggleButton } from "./ThemeSwitch";
 
 
 export default function Navbar() {
@@ -34,7 +35,7 @@ export default function Navbar() {
                   }
                 </div>
             <div className="flex items-center gap-10">
-              <button>Theme</button>
+              <ThemeToggleButton  variant="circle" start="top-right" blur />
             </div>
         {/* Here the theme button goes */}
         </div>
