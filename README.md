@@ -3,6 +3,16 @@
 
 ## Getting Started
 
+
+### Installation
+
+#### 1. Clone the repository
+
+```bash
+git clone https://github.com/DIPAKK2310/dipk.me.git
+
+```
+
 First, run the development server:
 
 ```bash
