@@ -25,7 +25,15 @@ pnpm dev
 bun dev
 ```
 
-
+# Tech Stack
+ - NextJs
+ - Tailwindcss
+ - radix-ui
+ - ThreeJs
+ - Motion
+ - Lucid-react
+ - Lenis
+ 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
