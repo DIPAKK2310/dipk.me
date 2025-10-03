@@ -2,6 +2,27 @@ import Github from "@/components/svgs/Github";
 import LinkedIn from "@/components/svgs/LinkedIn";
 import Mail from "@/components/svgs/Mail";
 import X from "@/components/svgs/X";
+import JavaScript from "@/components/technologies/JavaScript"
+import TypeScript from  "@/components/technologies/TypeScript"
+import ReactIcon from "@/components/technologies/ReactIcon"
+import  NextJs from "@/components/technologies/NextJs"
+import  Bun from "@/components/technologies/Bun"
+import  PostgreSQL from "@/components/technologies/PostgreSQL"
+import  NodeJs from "@/components/technologies/NodeJs"
+import  MongoDB from "@/components/technologies/MongoDB"
+import  Prisma from "@/components/technologies/Prisma"
+
+export const skillComponents = {
+  TypeScript: TypeScript,
+  ReactIcon: ReactIcon,
+  NextJs: NextJs,
+  Bun: Bun,
+  PostgreSQL: PostgreSQL,
+  NodeJs: NodeJs,
+  MongoDB: MongoDB,
+  Prisma: Prisma,
+  JavaScript: JavaScript,
+};
 
 export const heroConfig = {
   // Personal Information
@@ -69,22 +90,22 @@ export const heroConfig = {
 export const socialLinks = [
   {
     name: 'X',
-    href: 'https://x.com/ramxcodes',
+    href: 'https://x.com/dipakkhare_23/',
     icon: <X />,
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/ramxcodes/',
+    href: 'https://www.linkedin.com/in/dipak-khare-159107212/',
     icon: <LinkedIn />,
   },
   {
     name: 'Github',
-    href: 'https://github.com/ramxcodes',
+    href: 'https://github.com/DIPAKK2310/',
     icon: <Github />,
   },
   {
     name: 'Email',
-    href: 'mailto:ramxcodes@gmail.com',
+    href: 'mailto:dipakkhare.dev@gmail.com',
     icon: <Mail />,
   },
 ];

@@ -17,7 +17,7 @@ const Computers: React.FC<ComputerProps>= ({ isMobile})=> {
   const computer = useGLTF('/models/desktop_pc/scene.gltf') as GLTFResult;
 
   return (
-    <group >
+    <group scale={isMobile? 0.75: 1.5}>
       {/* HemisphereLight and PointLight are now properly used as Three.js objects */}
       <hemisphereLight intensity={1.7} groundColor="black" /> 
       <pointLight intensity={1} />
@@ -34,7 +34,7 @@ const Computers: React.FC<ComputerProps>= ({ isMobile})=> {
        />
       <primitive 
         object={computer.scene} 
-        scale={ isMobile ? 0.7 : 1.5} 
+        // scale={ isMobile ? 0.7 : 0.75} 
         position={isMobile ? [ 0, -3, -2.2] : [ 0, -3.25, -1.5]}
       />
     </group>
