@@ -52,10 +52,11 @@ export default function Hero() {
 
   return (
 
-   
+     
     <Container className="mx-auto max-w-5xl">
-
-        <ComputersCanvas />
+       <section>
+         <ComputersCanvas />
+       </section>
     
     
       {/* Text Area */}
