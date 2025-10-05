@@ -54,10 +54,7 @@ export default function Hero() {
 
      
     <Container className="mx-auto max-w-5xl">
-       <section>
-         <ComputersCanvas />
-       </section>
-    
+           
     
       {/* Text Area */}
       <div className="mt-8 flex flex-col gap-2">
