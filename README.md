@@ -35,6 +35,27 @@ bun dev
  - Lenis
  
 
+ # Folder Structure
+ 
+|_ app
+|_ components      #client components 
+  |_ blog
+  |_ canvas        # Canvas for model
+  |_ common
+  |_ computer      #3D-Model
+  |_ loader
+  |_ projects 
+  |_ svgs
+  |_ technologies
+  |_ ui 
+|_ config          #Info 
+|_ hooks           #React-hooks
+|_ lib             #library
+|_ public          #images
+|_ types           # for typescript
+|_ 
+|_
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
