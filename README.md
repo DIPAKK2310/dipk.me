@@ -43,11 +43,11 @@ bun dev
   |_ canvas        # Canvas for model
   |_ common
   |_ computer      #3D-Model
-  |_ loader
-  |_ projects 
-  |_ svgs
-  |_ technologies
-  |_ ui 
+  |_ loader        # loader for 3D model
+  |_ projects      #Project info
+  |_ svgs          # Svgs for projects
+  |_ technologies  # used tech svg and icons
+  |_ ui           #UI for app
 |_ config          #Info 
 |_ hooks           #React-hooks
 |_ lib             #library
