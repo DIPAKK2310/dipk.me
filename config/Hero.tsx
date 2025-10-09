@@ -60,7 +60,7 @@ export const heroConfig = {
     {
       name: 'MongoDB',
       href: 'https://www.mongodb.com/',
-      component: 'MongoDb',
+      component: 'MongoDB',
     },
   ],
   // Description Configuration
