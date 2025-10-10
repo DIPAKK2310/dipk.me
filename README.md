@@ -41,7 +41,7 @@ bun dev
 |_ components      #client components 
   |_ blog
   |_ canvas        # Canvas for model
-  |_ common
+  |_ common        #Use in everywhere
   |_ computer      #3D-Model
   |_ loader        # loader for 3D model
   |_ projects      #Project info
