@@ -53,9 +53,6 @@ bun dev
 |_ lib             #library
 |_ public          #images
 |_ types           # for typescript
-|_ 
-|_
-
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
