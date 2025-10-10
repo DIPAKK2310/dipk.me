@@ -36,7 +36,7 @@ bun dev
  
 
  # Folder Structure
- 
+ ```bash
 |_ app
 |_ components      #client components 
   |_ blog
@@ -55,6 +55,8 @@ bun dev
 |_ types           # for typescript
 |_ 
 |_
+
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
