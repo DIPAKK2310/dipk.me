@@ -2,6 +2,7 @@
 ## This is portfolio website with sleek design and modern animation
 
 ## Getting Started
+This is a portfolio is for proof of work
 
 
 ### Installation
@@ -54,6 +55,7 @@ bun dev (#Recommended)
 |_ public          #images
 |_ types           # for typescript
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
