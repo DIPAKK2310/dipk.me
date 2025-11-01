@@ -34,6 +34,7 @@ bun dev (#Recommended)
  - Motion
  - Lucid-react
  - Lenis
+ - calcom
  
 
  # Folder Structure
