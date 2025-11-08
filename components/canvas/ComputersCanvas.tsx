@@ -41,7 +41,8 @@ const ComputersCanvas: React.FC = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [15, 5, 10], 
+      fov: 40 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={ <CanvasLoader />}>
