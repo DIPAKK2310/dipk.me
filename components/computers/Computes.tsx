@@ -19,13 +19,13 @@ const Computers: React.FC<ComputerProps>= ({ isMobile})=> {
   return (
     <mesh scale={isMobile? 1.0: 1.8}>
       {/* HemisphereLight and PointLight are now properly used as Three.js objects */}
-      <hemisphereLight intensity={1.7} groundColor="black" /> 
-      <pointLight intensity={1} />
+      <hemisphereLight intensity={1.0} groundColor="black" /> 
+      <pointLight intensity={1.2} />
        <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
+        position={[-15, 35, 10]}
+        angle={0.4}
         penumbra={1}
-        intensity={1}
+        intensity={1.2}
         castShadow
        shadow-mapSize-width={1024}
 
