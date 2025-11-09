@@ -2,7 +2,6 @@ import { heroConfig, skillComponents, socialLinks } from '@/config/Hero';
 import { parseTemplate } from '@/lib/hero';
 import { cn } from '@/lib/utils';
 import { Link } from 'next-view-transitions';
-import Image from 'next/image';
 import React from 'react';
 
 import Container from '../common/Container';
@@ -11,7 +10,7 @@ import CV from '../svgs/CV';
 import Chat from '../svgs/Chat';
 import { Button } from '../ui/button';
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip';
-import ComputersCanvas from '../canvas/ComputersCanvas';
+import Model from './Model';
 
 const buttonIcons = {
   CV: CV,
@@ -52,10 +51,9 @@ export default function Hero() {
 
   return (
 
-     
-    <Container className="mx-auto max-w-5xl">
-           
-    
+
+    <Container className="relative mx-auto max-w-5xl mt-10">
+        
       {/* Text Area */}
       <div className="mt-8 flex flex-col gap-2">
         <h1 className="text-4xl font-bold">
