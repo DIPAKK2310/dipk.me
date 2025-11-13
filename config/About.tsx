@@ -22,5 +22,8 @@ export const mySkills = [
 
 export const about = {
   name: 'Dipak Khare',
-  description: `I'm a Full Stack developer and Open Source Contributor, I love building products to solve real-world problems. I'm specialized in building MVP's with excellent design.`,
+  description: `Lumina AI is a next-generation SaaS platform that helps creators and
+          developers upload, transform, and optimize their media using
+          intelligent AI workflows — all with blazing-fast performance and
+          modern design`,
 };
