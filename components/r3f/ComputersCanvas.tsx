@@ -1,17 +1,19 @@
 "use client"
 import React, { Suspense, useEffect, useState } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei'; // Only import helpers you need
+import  { Canvas }  from '@react-three/fiber';
+import { OrbitControls, Preload} from '@react-three/drei'; // Only import helpers you need
 
-import CanvasLoader from '../loader/loader';
-import Computers from '../computers/Computes';
+import CanvasLoader from '../loader/Loader';
+import Computers from './Computers';
 
 
 const ComputersCanvas: React.FC = () => {
 
   const [ isMobile,setIsMobile] = useState(false);
+  const [mounted, setmounted] = useState(false)
 
   useEffect(() => {
+    setmounted(true);
     // Add a Listener for change to hte screen  size 
     const mediaQuery = window.matchMedia('(max-width:500px)');
 
@@ -34,9 +36,11 @@ const ComputersCanvas: React.FC = () => {
       }
    
   }, [])
+
+  if (!mounted) return null;
   
   return (
-    <>
+    <div>
 
     <Canvas
       frameloop="demand"
@@ -56,7 +60,7 @@ const ComputersCanvas: React.FC = () => {
       <Preload all />
     </Canvas>
    
-    </>
+    </div>
   );
 };
 

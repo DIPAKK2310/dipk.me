@@ -36,7 +36,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <div className="group relative aspect-video overflow-hidden">
           <Image
             className="h-full w-full object-cover"
-            src={project.image}
+            src={project.image} 
             alt={project.title}
             width={1920}
             height={1080}

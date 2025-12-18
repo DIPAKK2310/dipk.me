@@ -45,7 +45,7 @@ export function ProjectContent({ frontmatter, content }: ProjectContentProps) {
       <header className="mb-8 space-y-6">
         <div className="relative aspect-video overflow-hidden rounded-lg">
           <Image
-            src={image}
+            src={image }
             alt={title}
             fill
             className="object-cover"

@@ -6,6 +6,7 @@ import { ViewTransitions } from "next-view-transitions";
 import { ThemeProvider } from "@/components/common/ThemeProviders";
 export const metadata = getMetadata('/')
 import "./globals.css";
+import Footer from "@/components/common/Footer";
 
 
 export default function RootLayout({
@@ -27,6 +28,7 @@ export default function RootLayout({
               <ReactLenis>
                   <Navbar/>
                     {children}
+                    <Footer/>
               </ReactLenis>
           </ThemeProvider>
         </body>

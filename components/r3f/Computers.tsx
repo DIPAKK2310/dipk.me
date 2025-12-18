@@ -43,3 +43,4 @@ const Computers: React.FC<ComputerProps>= ({ isMobile})=> {
 
 
 export default Computers;
+useGLTF.preload('/models/desktop_pc/scene.gltf');// Preload the model for better performance 23/11
