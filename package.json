@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@calcom/embed-react": "^1.5.3",
+    "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/themes": "^3.2.1",
     "@react-three/drei": "^9.121.4",
     "@shikijs/rehype": "^3.13.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "eventsource-parser": "^3.0.6",
     "gray-matter": "^4.0.3",
     "lenis": "^1.3.11",
     "lucide-react": "^0.544.0",
@@ -27,8 +29,12 @@
     "react": "^18.3.1",
     "react-activity-calendar": "^2.7.14",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.68.0",
+    "sonner": "^2.0.7",
     "tailwind-merge": "^3.3.1",
-    "three": "^0.158.0"
+    "three": "^0.158.0",
+    "vaul": "^1.1.2",
+    "zod": "^4.2.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

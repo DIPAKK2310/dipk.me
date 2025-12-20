@@ -15,6 +15,7 @@ import PostgreSQL from '@/components/technologies/PostgreSQL';
 import Postman from '@/components/technologies/Postman';
 import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
+import ReactJs from '@/components/technologies/ReactJs';
 import Sanity from '@/components/technologies/Sanity';
 import Shadcn from '@/components/technologies/Shadcn';
 import SocketIo from '@/components/technologies/SocketIo';
@@ -46,6 +47,27 @@ export const projects: Project[] = [
     live: '',
     details: true,
     projectDetailsPageSlug: '/projects/ShoppYnow',
+    isWorking: false,
+  },
+    {
+    title: 'Nike 2.O',
+    description:
+      '⚡A modern, responsive Nike Landing Page built using React + Vite + Tailwind CSS, animated with Framer Motion. Fully responsive, clean design, and mobile-first layout showcasing Nike products in a sleek UI.',
+    image: '/project/nike.png',
+    video: 'https://ik.imagekit.io/hokb3mrdr/quest.mp4',
+    link: 'https://nike-landing-vert-nine.vercel.app',
+    technologies: [
+      { name: 'Ract.js', icon: <ReactJs key="reactjs" /> },
+      { name: 'JavaScript', icon: <JavaScript key="javascript" /> },
+      { name: 'Vercel', icon: <Vercel key="vercel" /> },
+      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+      { name: 'Framer Motion', icon: <Motion key="motion" /> },
+      { name: 'Github', icon: <Github key="github" /> },
+    ],
+    github: 'https://github.com/DIPAKK2310/nike-2.0',
+    live: 'https://nike-landing-vert-nine.vercel.app',
+    details: true,
+    projectDetailsPageSlug: '/projects/nike-2.0',
     isWorking: true,
   },
   {
@@ -65,7 +87,7 @@ export const projects: Project[] = [
     live: '',
     details: true,
     projectDetailsPageSlug: '/projects/prep_now',
-    isWorking: true,
+    isWorking: false,
   },
   {
     title: 'Incode',
@@ -86,7 +108,7 @@ export const projects: Project[] = [
     live: '',
     details: true,
     projectDetailsPageSlug: '/projects/incode-ide',
-    isWorking: true,
+    isWorking: false,
   },
   {
     title: 'Lumina',
@@ -107,28 +129,8 @@ export const projects: Project[] = [
     live: '',
     details: true,
     projectDetailsPageSlug: '/projects/lumina',
-    isWorking: true, // Currently in development
+    isWorking: false, // Currently in development
   },
-  {
-    title: 'Nike 2.O',
-    description:
-      'Personal challenge tracker for completing 500 DSA problems, earning ₹300,000, and improving fitness within 6 months',
-    image: '/project/nike.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/quest.mp4',
-    link: 'https://nike-landing-vert-nine.vercel.app',
-    technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'Vercel', icon: <Vercel key="vercel" /> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'MDX', icon: <MDXIcon key="mdx" /> },
-      { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
-    ],
-    github: 'https://github.com/DIPAKK2310/nike-2.0',
-    live: 'https://nike-landing-vert-nine.vercel.app',
-    details: true,
-    projectDetailsPageSlug: '/projects/nike-2.0',
-    isWorking: true,
-  },
+
   
 ];

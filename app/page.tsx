@@ -5,6 +5,7 @@ import Hero from "@/components/landing/Hero";
 import Model from "@/components/landing/Model";
 import Projects from "@/components/landing/Projects";
 import Blog from "@/components/landing/Blog";
+import Experience from "@/components/landing/Experience";
 
 
 export default function Page() {
@@ -14,6 +15,7 @@ export default function Page() {
     <Container className="h-full w-full py-16">
       
       <Hero />
+      <Experience/>
       <Github/>
       <Projects/>
       <Blog/>
