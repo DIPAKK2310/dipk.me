@@ -7,11 +7,8 @@ import {GLTF} from "three-stdlib"
 interface ComputerProps {
     isMobile: boolean;
 }
-type GLTFResult = GLTF & {
-  nodes: any;
-  materials: any;
-};
 
+type GLTFResult = GLTF ;
 
 const Computers: React.FC<ComputerProps>= ({ isMobile})=> {
   const computer = useGLTF('/models/desktop_pc/scene.gltf') as GLTFResult;
@@ -43,4 +40,4 @@ const Computers: React.FC<ComputerProps>= ({ isMobile})=> {
 
 
 export default Computers;
-useGLTF.preload('/models/desktop_pc/scene.gltf');// Preload the model for better performance 23/11
+useGLTF.preload('/models/desktop_pc/scene.gltf');// Preload the model for better performance 
