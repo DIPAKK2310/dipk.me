@@ -33,7 +33,6 @@ bun dev (#Recommended)
  - ThreeJs
  - Motion
  - Lucid-react
- - Lenis
  - calcom
  
 
